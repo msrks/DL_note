@@ -12,6 +12,17 @@
 [Image-to-image translation using conditional adversarial nets](notes/pix2pix.md)
 [[arxiv](https://arxiv.org/abs/1611.07004)]
 
+#### 2016-10
+CONDITIONAL IMAGE SYNTHESIS WITH AUXILIARY CLASSIFIER GANS [[arxiv](https://arxiv.org/abs/1610.09585)]
+
+Using Fast Weights to Attend to the Recent Past [[arxiv](https://arxiv.org/abs/1610.06258)]
+
+#### 2016-9
+HyperNetworks[[arxiv](https://arxiv.org/abs/1609.09106)]
+```
+relaxed weight-sharing in the time dimension.
+```
+
 #### 2016-6
 
 InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets[[arxiv](https://arxiv.org/abs/1606.03657)]
@@ -42,3 +53,8 @@ Anticipating Visual Representations from Unlabeled Video
 - 事前学習したCNNの隠れ層表現を予測する
 - multi-outputを予測して、もっともうまく予測できたものの予測誤差が最小となるように学習する
 ```
+
+#### 2015-2
+Human-level control through deep reinforcement learning [[arxiv](http://files.davidqiu.com/research/nature14236.pdf)]
+
+Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[arxiv](https://arxiv.org/abs/1502.03167)]
