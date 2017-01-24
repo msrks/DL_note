@@ -36,6 +36,14 @@ InfoGAN: Interpretable Representation Learning by Information Maximizing Generat
 全体を合わせるとよくわかんないことになってる
 ```
 
+[Generative Adversarial Imitation Learning](notes/GAIL170124.png) [[arxiv](https://arxiv.org/abs/1606.03476)]
+[[speakerdeck](https://speakerdeck.com/takoika/lun-wen-shao-jie-generative-adversarial-imitation-learning)]
+
+
+#### 2016-5
+
+Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016?ref=https://connpass.com/event/47580/presentation/)]
+
 #### 2016-3
 
 Adaptive Computation Time for Recurrent Neural Networks [[arxiv](https://arxiv.org/abs/1603.08983)]
