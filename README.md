@@ -1,33 +1,32 @@
 #### 2017-1
-[DeepStack: Expert-Level Artificial Intelligence in No-Limit Poker](notes/deep-stack.md)[[arxiv](https://128.84.21.199/pdf/1701.01724)]
+* [DeepStack: Expert-Level Artificial Intelligence in No-Limit Poker](notes/deep-stack.md)[[arxiv](https://128.84.21.199/pdf/1701.01724)]
 
 #### 2016-12
+* [Modeling documents with Generative Adversarial Networks  ](notes/adversarial-document-model.md)[[arxiv](https://arxiv.org/abs/1612.09122)]
 
-[Modeling documents with Generative Adversarial Networks  ](notes/adversarial-document-model.md)[[arxiv](https://arxiv.org/abs/1612.09122)]
-
-[Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](notes/ppgn.md)[[arxiv](https://arxiv.org/abs/1612.00005)]
+* [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](notes/ppgn.md)[[arxiv](https://arxiv.org/abs/1612.00005)]
 
 #### 2016-11
-
-[Image-to-image translation using conditional adversarial nets](notes/pix2pix.md)
+* [Image-to-image translation using conditional adversarial nets](notes/pix2pix.md)
 [[arxiv](https://arxiv.org/abs/1611.07004)]
 
 #### 2016-10
-CONDITIONAL IMAGE SYNTHESIS WITH AUXILIARY CLASSIFIER GANS [[arxiv](https://arxiv.org/abs/1610.09585)]
+* CONDITIONAL IMAGE SYNTHESIS WITH AUXILIARY CLASSIFIER GANS [[arxiv](https://arxiv.org/abs/1610.09585)]
 
-Using Fast Weights to Attend to the Recent Past [[arxiv](https://arxiv.org/abs/1610.06258)]
+* Using Fast Weights to Attend to the Recent Past [[arxiv](https://arxiv.org/abs/1610.06258)]
 
 #### 2016-9
-HyperNetworks[[arxiv](https://arxiv.org/abs/1609.09106)]
+* HyperNetworks[[arxiv](https://arxiv.org/abs/1609.09106)]
+
 ```
 relaxed weight-sharing in the time dimension.
 ```
 
 #### 2016-6
+* InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets[[arxiv](https://arxiv.org/abs/1606.03657)]
 
-InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets[[arxiv](https://arxiv.org/abs/1606.03657)]
+http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 
-* http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 ```
 - （infoじゃない）GANの損失関数も、相互情報量を使って定式化できる
 - GANの損失関数は、相互情報量の下限に対応する
@@ -36,26 +35,22 @@ InfoGAN: Interpretable Representation Learning by Information Maximizing Generat
 全体を合わせるとよくわかんないことになってる
 ```
 
-[Generative Adversarial Imitation Learning](notes/GAIL170124.png) [[arxiv](https://arxiv.org/abs/1606.03476)]
-[[speakerdeck](https://speakerdeck.com/takoika/lun-wen-shao-jie-generative-adversarial-imitation-learning)]
+* [Generative Adversarial Imitation Learning](notes/fig/GAIL170124.png) [[arxiv](https://arxiv.org/abs/1606.03476)] [[speakerdeck](https://speakerdeck.com/takoika/lun-wen-shao-jie-generative-adversarial-imitation-learning)]
 
 
 #### 2016-5
-
-Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016?ref=https://connpass.com/event/47580/presentation/)]
+* Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016?ref=https://connpass.com/event/47580/presentation/)]
 
 #### 2016-3
-
-Adaptive Computation Time for Recurrent Neural Networks [[arxiv](https://arxiv.org/abs/1603.08983)]
+* Adaptive Computation Time for Recurrent Neural Networks [[arxiv](https://arxiv.org/abs/1603.08983)]
 
 #### 2015-11
-
-Neural Programmer: Inducing Latent Programs with Gradient Descent [[arxiv](https://arxiv.org/abs/1511.04834)]
+* Neural Programmer: Inducing Latent Programs with Gradient Descent [[arxiv](https://arxiv.org/abs/1511.04834)]
 
 #### 2015-4
-
-Anticipating Visual Representations from Unlabeled Video
+* Anticipating Visual Representations from Unlabeled Video
 [[arxiv](https://arxiv.org/abs/1504.08023)]
+
 ```
 - future frame の カテゴリ を予測する（フレームそのものではない）
 - 事前学習したCNNの隠れ層表現を予測する
@@ -63,6 +58,6 @@ Anticipating Visual Representations from Unlabeled Video
 ```
 
 #### 2015-2
-Human-level control through deep reinforcement learning [[arxiv](http://files.davidqiu.com/research/nature14236.pdf)]
+* Human-level control through deep reinforcement learning [[arxiv](http://files.davidqiu.com/research/nature14236.pdf)]
 
-Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[arxiv](https://arxiv.org/abs/1502.03167)]
+* Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[arxiv](https://arxiv.org/abs/1502.03167)]
