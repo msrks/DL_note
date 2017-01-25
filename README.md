@@ -15,6 +15,8 @@
 
 * Using Fast Weights to Attend to the Recent Past [[arxiv](https://arxiv.org/abs/1610.06258)]
 
+* Professor Forcing: A New Algorithm for Training Recurrent Networks [[arxiv](https://arxiv.org/abs/1610.09038)][[slideshare](http://2boy.org/~yuta/publications/NIPS2016yomi-poster-Professor-Forcing-tsuboi.pdf)]
+
 #### 2016-9
 * HyperNetworks[[arxiv](https://arxiv.org/abs/1609.09106)]
 
@@ -38,8 +40,13 @@ http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 * [Generative Adversarial Imitation Learning](notes/fig/GAIL170124.png) [[arxiv](https://arxiv.org/abs/1606.03476)] [[speakerdeck](https://speakerdeck.com/takoika/lun-wen-shao-jie-generative-adversarial-imitation-learning)]
 
 
+#### 2016-6
+* Conditional Image Generation with PixelCNN Decoders[[arxiv](https://arxiv.org/abs/1606.05328)][slideshare](http://www.slideshare.net/suga93/conditional-image-generation-with-pixelcnn-decoders)
+
+* Learning to learn by gradient descent by gradient descent[[arxiv](https://arxiv.org/abs/1606.04474)]
+
 #### 2016-5
-* Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016?ref=https://connpass.com/event/47580/presentation/)]
+* Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016)]
 
 #### 2016-3
 * Adaptive Computation Time for Recurrent Neural Networks [[arxiv](https://arxiv.org/abs/1603.08983)]
