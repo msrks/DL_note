@@ -8,7 +8,7 @@
 
 #### 2016-11
 * [Image-to-image translation using conditional adversarial nets](notes/pix2pix.md)
-[[arxiv](https://arxiv.org/abs/1611.07004)]
+[[arxiv](https://arxiv.org/abs/1611.07004)][[blog](http://affinelayer.com/pix2pix/index.html)]
 
 #### 2016-10
 * CONDITIONAL IMAGE SYNTHESIS WITH AUXILIARY CLASSIFIER GANS [[arxiv](https://arxiv.org/abs/1610.09585)]
@@ -68,3 +68,6 @@ http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 * Human-level control through deep reinforcement learning [[arxiv](http://files.davidqiu.com/research/nature14236.pdf)]
 
 * Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift [[arxiv](https://arxiv.org/abs/1502.03167)]
+
+#### 2014-10
+* Neural Turing Machine[[arxiv](http://arxiv.org/abs/1410.5401)]
