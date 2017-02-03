@@ -45,6 +45,8 @@ http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 
 * Learning to learn by gradient descent by gradient descent[[arxiv](https://arxiv.org/abs/1606.04474)]
 
+* [Tutorial on Variational Autoencoders](notes/vae.md)[[arxiv](https://arxiv.org/abs/1606.05908)]
+
 #### 2016-5
 * Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016)]
 
