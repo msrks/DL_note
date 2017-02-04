@@ -6,6 +6,13 @@
 
 * [Plug & Play Generative Networks: Conditional Iterative Generation of Images in Latent Space](notes/ppgn.md)[[arxiv](https://arxiv.org/abs/1612.00005)]
 
+* Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer [[arxiv](https://arxiv.org/abs/1612.03928)]
+
+```
+Attention Transfer:
+損失関数として通常のcross-entropyに、追加で、正則化項としてAttention-mapの「距離」を追加
+```
+
 #### 2016-11
 * [Image-to-image translation using conditional adversarial nets](notes/pix2pix.md)
 [[arxiv](https://arxiv.org/abs/1611.07004)][[blog](http://affinelayer.com/pix2pix/index.html)]
