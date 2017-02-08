@@ -24,6 +24,8 @@ Attention Transfer:
 
 * Professor Forcing: A New Algorithm for Training Recurrent Networks [[arxiv](https://arxiv.org/abs/1610.09038)][[slideshare](http://2boy.org/~yuta/publications/NIPS2016yomi-poster-Professor-Forcing-tsuboi.pdf)]
 
+* [Universal adversarial perturbations](notes/universal-adversarial-perturbations.md)[[arxiv](https://arxiv.org/abs/1610.08401)]
+
 #### 2016-9
 * HyperNetworks[[arxiv](https://arxiv.org/abs/1609.09106)]
 
