@@ -2,7 +2,7 @@
 
 ## overview
 
-2つの意味で universalな `adversarial example` の存在を示した。
+2つの意味で universalな `adversarial example` (最初の提案は[goodfellow 2014-12](https://arxiv.org/abs/1412.6572))  の存在を示した。
 
 * data に対して universal
 * NN architecture に対して universal (これは前からあったらしい）
