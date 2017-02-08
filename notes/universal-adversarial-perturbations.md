@@ -7,4 +7,4 @@
 * data に対して universal
 * NN architecture に対して universal (これは前からあったらしい）
 
-![](fig/uap-algo.png)
+<img src="fig/uap-algo.png" width=400px>
