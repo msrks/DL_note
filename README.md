@@ -59,6 +59,16 @@ http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 #### 2016-5
 * Unsupervised Learning for Physical Interaction through Video Prediction[[arxiv](https://arxiv.org/abs/1605.07157)][[slideshare](http://www.slideshare.net/yamaryox/unsupervised-learning-for-physical-interaction-through-video-predictionnips2016)]
 
+```
+# 3手法
+1. DNA (Dynamic Neural Advection): 
+　各ピクセルごとに移動量を推定。ピクセルごとに推定時刻tのフレームにおけるpixel(x,y)を、時刻t-1のpixel(x.y)を中心とする5x5のpixel群から推定
+2. Convolutional DNA:　
+　画像のマスクされた部分に共通した平行移動量を推定。（convの重み共有のため）
+3. STP (Spatial Transformer Prediction):
+　画像の部分ごとに共通した 2次元アフィン変換を学習（アフィン変換なので、回転、拡大縮小も学習できる）
+```
+
 #### 2016-3
 * Adaptive Computation Time for Recurrent Neural Networks [[arxiv](https://arxiv.org/abs/1603.08983)]
 
