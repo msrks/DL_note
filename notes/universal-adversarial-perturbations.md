@@ -23,7 +23,9 @@ foolできるように r だけずらして(7行目)、epsilon球の中に収ま
 
 <img src="fig/uap-algo.png" width=400px>
 
-<img src="fig/uap-algo3.png" width=300px>
+ちなみに
+
+<img src="fig/uap-algo3.png" width=350px>
 
 ## Visualization of the effect of universal perturbations
 
@@ -45,6 +47,6 @@ foolingしやすい摂動方向の行列
 
 -> 考察「多様体仮説の一つの証明」
 
-実際、特異値の大きい方向の固有ベクトルいくつかで構成した部分空間(fig.10のS面)（データの載ってる低次元構造の方向と直行）で、ランダムな方向に perturbation を与えると、完全なランダムperturbationよりもfoolしやすい。
+実際、特異値の大きい方向の固有ベクトルいくつかで構成した部分空間(fig.10のS面)（データの載ってる低次元構造の方向と直行）で、ランダムな方向に perturbation を与えると、完全なランダムperturbationよりもfoolしやすい。（本文最後の方）
 
 <img src="fig/uap-explain2.png" width=450px>
