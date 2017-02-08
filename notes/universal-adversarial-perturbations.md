@@ -7,7 +7,7 @@
 * data に対して universal
 * NN architecture に対して universal (これは前からあったらしい）
 
-<img src="fig/uap.png" width=300px>
+<img src="fig/uap.png" width=400px>
 
 ## universal adversarial perturbation の見つけかた
 
@@ -29,7 +29,7 @@ foolできるように r だけずらして(7行目)、epsilon球の中に収ま
 
 矢印の意味 = (perturbation前) -> (perturbation後)
 
-<img src="fig/uap-vis.png" width=300px>
+<img src="fig/uap-vis.png" width=650px>
 
 dominant なラベルがあるのがわかる。
 
@@ -47,4 +47,4 @@ foolingしやすい摂動方向の行列
 
 実際、特異値の大きい方向の固有ベクトルいくつかで構成した部分空間(fig.10のS面)（データの載ってる低次元構造の方向と直行）で、ランダムな方向に perturbation を与えると、完全なランダムperturbationよりもfoolしやすい。
 
-<img src="fig/uap-explain2.png" width=300px>
+<img src="fig/uap-explain2.png" width=450px>
