@@ -36,7 +36,10 @@ relaxed weight-sharing in the time dimension.
 #### 2016-6
 * InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets[[arxiv](https://arxiv.org/abs/1606.03657)]
 
-http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
+ref:
+
+    * http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
+    * http://mrdrozdov.com/papers/infogan.pdf
 
 ```
 - （infoじゃない）GANの損失関数も、相互情報量を使って定式化できる
@@ -45,6 +48,8 @@ http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 - info GANの2項目にvariational boundを適用すると下限に対応するので
 全体を合わせるとよくわかんないことになってる
 ```
+
+
 
 * [Generative Adversarial Imitation Learning](notes/fig/GAIL170124.png) [[arxiv](https://arxiv.org/abs/1606.03476)] [[speakerdeck](https://speakerdeck.com/takoika/lun-wen-shao-jie-generative-adversarial-imitation-learning)]
 
@@ -61,7 +66,7 @@ http://www.inference.vc/infogan-variational-bound-on-mutual-information-twice/
 
 ```
 # 3手法
-1. DNA (Dynamic Neural Advection): 
+1. DNA (Dynamic Neural Advection):
 　各ピクセルごとに移動量を推定。ピクセルごとに推定時刻tのフレームにおけるpixel(x,y)を、時刻t-1のpixel(x.y)を中心とする5x5のpixel群から推定
 2. Convolutional DNA:　
 　画像のマスクされた部分に共通した平行移動量を推定。（convの重み共有のため）
