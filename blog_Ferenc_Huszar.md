@@ -1,3 +1,13 @@
+## Understanding Minibatch Discrimination in GANs · June 15th, 2016
+
+Minibatch Discrimination をすることで、多様性のないサンプルを生成することに対してより大きなペナルティーが課される。これによってGANの失敗する典型ケース(全部おんなじサンプルを生成しちゃう)を防ぎやすくなる。
+
+なお、目的関数の形を、KL-div、Reverse KL-divにした時は、Minibatch Discriminationしても目的関数は変わらないが、JS-divの場合は目的関数自体が変わる。
+
+## Dilated Convolutions and Kronecker Factored Convolutions · May 12th, 2016
+
+Dilated Convolutions と Kronecker Factord Convolutions は本質的には似たようなもんだよって話
+
 ## Notes on "Unsupervised Represerntation Learning by Solving Jigsaw Puzzles" · April 28th, 2016
 
 画像用NNの新しい斬新な初期化方法（ジグソーパズルを解かせる）[[arxiv.16.03](https://arxiv.org/abs/1603.09246)]に対する考察。
@@ -31,7 +41,7 @@ Deep Learning を研究するための心得。表面的に薄っぺらくじゃ
 
 ## The Next Episode: I'm joining Magic Pony Technology · January 8th, 2016
 
-
+著者が `Magic Pony Technology` に転職した理由。
 
 ## Adversarial Autoencoders (vs Moment Matching Autoencoders?) · January 8th, 2016
 
