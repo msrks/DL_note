@@ -31,9 +31,16 @@ Deep Learning を研究するための心得。表面的に薄っぺらくじゃ
 
 ## The Next Episode: I'm joining Magic Pony Technology · January 8th, 2016
 
+
+
 ## Adversarial Autoencoders (vs Moment Matching Autoencoders?) · January 8th, 2016
 
+AAEにAdversarial Trainingは本当に必要なのか？という議論。著者の意見は、不要。
+= Moment Matching で十分。
+
 ## Accuracy vs Explainability of Machine Learning Models [NIPS workshop poster review] · December 22nd, 2015
+
+ExplainabilityのためにAccuracyを犠牲にしたモデルを選ぶのって本当に正しい選択？どっちも求めようよって話。
 
 ## When is Machine Learning Worth it? · November 24th, 2015
 
@@ -69,3 +76,33 @@ min KL(P||Q)
 Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks [[arxiv.15.06](https://arxiv.org/abs/1506.03099)] に対する考察
 
 Strictly proper scoring rules を scheduled sampling は満たしておらず、eplison=0にした時の収束解は、直前までの系列を完全に無視するモデルとなることを指摘。adversarial training もしくは generative moment matchingの方がいいと提案。
+
+## Unsupervised Feature Learning in Video: Learning to Linearize · September 8th, 2015
+
+## The Two Kinds of Uncertainty an AI Agent Has to Represent · August 13th, 2015
+
+## Comment on Generative Image Models via Laplacian Pyramids · July 23rd, 2015
+
+## Exchangeable Models via Recurrent Neural Networks? · July 16th, 2015
+
+## From Autoencoders to Autoregressive Models (Masked Autoencoders ICML Paper) · July 13th, 2015
+
+## Unsupervised Learning by Inverting Diffusion Processes · July 9th, 2015
+
+## The Turing Test is About UX, not Intelligence · July 2nd, 2015
+
+## Another Favourite Machine Learning Paper: Adversarial Networks vs Kernel Scoring Rules · June 23rd, 2015
+
+## Conversational AI: The User Interface of the Future? · June 22nd, 2015
+
+## The Holy Grail of Deep Learning: Modelling Invariances · June 11th, 2015
+
+## Why We Won't Build Sentient AI in our Lifetime · June 4th, 2015
+
+## The Three Ways AI Will Create Value · May 28th, 2015
+
+## Stereovision Autoencoder · May 1st, 2015
+
+## A new Favourite Machine Learning Paper: Autoencoders VS. Probabilistic Models · April 16th, 2015
+
+ML Algorismをヒューリスティックな方法として退けるのではなく、確率的に解釈するのは重要。例としてDenoising AE(x^ -> x)はある種の対数尤度p(x)最大化に対応することを述べている。
