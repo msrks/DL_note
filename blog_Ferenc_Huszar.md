@@ -37,7 +37,29 @@ Deep Learning を研究するための心得。表面的に薄っぺらくじゃ
 
 ### When is Machine Learning Worth it? · November 24th, 2015
 
+だいたいの問題は、ヒューリスティックスを使ったり、せいぜいlogistic regressionで十分。この分野へのMLの適用はすでにsaturateした部分の性能をわずかに向上させるだけ。本当にMLが有用な領域は、speech recongnitionシステムみたいに、>95%の精度じゃないと製品にならないような基準がある場合。この場合は 0を1にすることができ、MLが大活躍する。
+
 ### How to Train your Generative Models? And why does Adversarial Training work so well? · November 17th, 2015
+
+infinite data かつ perfect model の下では、生データの分布をP、生成モデルをQとして、KL(P||Q)もKL(Q||P)も同一分布(Q=P)に収束するが、finite data や model misspecification の下では、異なった振る舞いをする。
+
+* KL(P||Q)の場合には、over generalizeする。
+
+QはPの分布全範囲を無理に再現しようとして、非現実的なサンプルを生み出す
+
+* KL(Q||P)の場合には、under generalizeする
+
+QはPの分布全範囲を再現するのを諦めて、一部分のみに対して正しく生成しようとする
+
+その結果、対数尤度的には KL(P||Q)の方が有利だが、KL(Q||P)の方がより自然なものを生成できる。ちなみに、naive-GANは、JS(P||Q) ~ KL(P||P+Q/2)/2+KL(Q||P+Q/2)/2を最小化してる。一方、VAEやAutoRegressiveモデルはKL(P||Q)を最小化してる。
+
+* 補足：KL(P||Q) 最小化が 対数尤度最大化と同値であることのメモ
+
+min KL(P||Q)
+~ min Sigma(PlogP – PlogQ)
+~ min Sigma( - PlogQ)
+~ max Sigma(PlogQ)
+~ max E_P[logQ]
 
 ### Idea of the Week: Maximum Spacing Estimation, Gaussianisation and Autoregressive Processes · October 22nd, 2015
 
